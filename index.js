@@ -10,7 +10,7 @@ const emailForm = document.querySelector('#email-form');
 const toast = document.querySelector('.toast');
 
 const fileURLInput = document.querySelector('#fileURL');
-const host = 'http://localhost:5000'
+const host = 'https://in-share-file-sharing.onrender.com'
 const uploadURL = `${host}/api/files`; //from backend
 const emailURL = `${host}/api/files/send`; //from backend
 
